@@ -1,0 +1,130 @@
+/* nav > ul {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    padding: 14px 0 14px 8px;
+    margin: -8px -8px -8px;
+    background-color: lavender;
+    border: 1px solid black;
+
+}
+li a {
+    padding: 5px;
+    font-size: 50px;
+    color: black;
+}
+.login-icon{
+    margin-left: auto;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+ 
+}
+
+nav > a{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        
+    line-height: 80px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+} */
+div > a > img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    transition-property: width, height;
+    transition-duration: 300ms;
+}
+div > a > img:hover{
+    width: 90px;
+    height: 80px;
+    
+}
+.container-fluid{
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    padding: 5px;
+    border: .10cm solid black;
+}
+
+nav > div{
+    display: inline-flex;
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div > p {
+    display:flex;
+    text-align: center;
+    margin-right: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+li{
+    display: flex;
+    /* margin-top: 0px; */
+    margin-left: 20%;
+    /* margin-left: 8px;
+    margin-right: 8px; */
+   font-size: 37px;
+   transition-property: font-size;
+   transition-duration: 300ms;
+
+}
+ li:hover{
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(33, 184, 33);
+
+ }
+div > ul{
+    display: flex;
+    margin-top: 30px;
+}
+
+/* .button{
+    /* display: flex;
+    flex-direction: row-reverse; */
+    /* position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+} */ 
+
+ul > .search:hover{
+        font-size: 30px;
+        
+}
+
+ul > .search{
+    top: 30px;
+    position: absolute;
+        padding: 10px 60px;
+        border: 1px outset;
+        border-radius: 3px;
+        color: solid black;
+        background-color: plum;
+        font-size: 20px; 
+        transition-property: font-size;
+        transition-duration: 300ms;
+        text-decoration: none;  
+        right: 40px;
+}
